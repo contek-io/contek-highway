@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/highway-x64-linux-1.0.7-2571615a-522c-4128-85b1-a94e3f11d8a0",
+  "name": "highway:x64-linux@1.0.7 19dc9a55f33c0ad611c8ef9981d70d6d9c7407ffa8bccac48389b1163a983061",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-1c9ec1978a6b0c2b39c9e9554a96e3e275f7556e"
+    ],
+    "created": "2023-12-21T09:47:35Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "highway",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.0.7",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/highway",
+      "homepage": "https://github.com/google/highway",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Performance-portable, length-agnostic SIMD with runtime dispatch",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "highway:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "19dc9a55f33c0ad611c8ef9981d70d6d9c7407ffa8bccac48389b1163a983061",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "google/highway",
+      "downloadLocation": "git+https://github.com/google/highway@1.0.7",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "6ee5007ec13ac20b5d816b38a1b31c31a06678ca6d2ea090dd75e364f04cb2cf7ad8a82d1bdfff51079efa54b9a95fb554d62e6cc1bbf7d7e794cb272032d8f5"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//data/jenkins/tmp/vcpkg/ports/highway/usage",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8c127fd751fecdc43339c05d573b4667bf6877a4ef49f7346eec0be3b49afb55"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//data/jenkins/tmp/vcpkg/ports/highway/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1402c062c25e28129ef06e76d22bc6791f62b304e2b4653a50cb42c35b476360"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//data/jenkins/tmp/vcpkg/ports/highway/portfile.cmake",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "69dead38d050342002847aee6e8444855f0835ee8ef682fdaf067c39db568939"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

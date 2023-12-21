@@ -1,0 +1,7 @@
+Package: highway
+Version: 1.0.7
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 19dc9a55f33c0ad611c8ef9981d70d6d9c7407ffa8bccac48389b1163a983061
+Description: Performance-portable, length-agnostic SIMD with runtime dispatch
